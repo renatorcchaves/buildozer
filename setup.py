@@ -28,6 +28,7 @@ install it on Python {}.{}.
 
 
 def find_version(*file_paths):
+    #https://github.com/kivy/buildozer.git
     # Use codecs.open for Python 2 compatibility
     with codecs.open(os.path.join(here, *file_paths), 'r', 'utf-8') as f:
         version_file = f.read()
